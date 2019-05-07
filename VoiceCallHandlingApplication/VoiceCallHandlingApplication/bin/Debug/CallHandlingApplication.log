@@ -1,0 +1,90 @@
+2019-05-07 13:29:09,047 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 13:32:23,505 INFO  [9] - Socket Connected
+2019-05-07 13:32:23,508 INFO  [9] - Stream Connected
+2019-05-07 13:37:19,124 INFO  [9] - Agent  6002 Logged On
+2019-05-07 13:37:19,387 INFO  [9] - Agent State : Aux
+2019-05-07 13:37:19,434 INFO  [9] - Agent State : Aux
+2019-05-07 13:37:31,891 INFO  [9] - Call Made. CallID: 82 Call from : 1010 to 1011
+2019-05-07 13:37:39,243 INFO  [9] - Call Cleared
+2019-05-07 13:38:42,262 INFO  [9] - Call Recieved from: 1011 to 1010
+2019-05-07 13:48:08,583 INFO  [9] - Call Cleared
+2019-05-07 13:49:00,770 INFO  [9] - Call Recieved from: 1011 to 1010
+2019-05-07 13:49:06,157 INFO  [9] - Call Answered successfully. Call ID : 85 Call From: 1011 to 1010
+2019-05-07 13:49:06,163 INFO  [9] - Call established between : 1011 and 1010
+2019-05-07 13:50:10,094 INFO  [9] - Call placed on Hold
+2019-05-07 13:50:10,140 INFO  [9] - Call transfered
+2019-05-07 13:50:34,875 INFO  [9] - Call placed on Hold
+2019-05-07 13:50:35,891 INFO  [9] - Call transfered
+2019-05-07 13:51:02,083 INFO  [9] - Call Recieved from: 1011 to 1010
+2019-05-07 13:51:03,097 INFO  [9] - Call Conferenced
+2019-05-07 13:51:47,756 INFO  [9] - Call Answered successfully. Call ID : 88 Call From: 1011 to 1010
+2019-05-07 13:51:47,759 INFO  [9] - Call established between : 1011 and 1010
+2019-05-07 13:51:58,759 INFO  [9] - Call Cleared
+2019-05-07 13:52:34,848 INFO  [9] - Call Recieved from: 1011 to 1010
+2019-05-07 13:52:35,823 INFO  [9] - Call placed on Hold
+2019-05-07 13:52:44,122 INFO  [9] - Call Retrieved
+2019-05-07 13:52:47,479 INFO  [9] - Call Cleared
+2019-05-07 13:53:06,494 INFO  [9] - Call Recieved from: 1011 to 1010
+2019-05-07 13:53:07,506 INFO  [9] - Call transfered
+2019-05-07 13:53:13,573 INFO  [9] - Call Answered successfully. Call ID : 92 Call From: 1011 to 1010
+2019-05-07 13:53:13,580 INFO  [9] - Call established between : 1012 and 1010
+2019-05-07 13:53:19,755 INFO  [9] - Call Cleared
+2019-05-07 13:53:58,643 INFO  [9] - Call Recieved from: 1011 to 1010
+2019-05-07 13:54:03,437 INFO  [9] - Call Answered successfully. Call ID : 94 Call From: 1011 to 1010
+2019-05-07 13:54:03,444 INFO  [9] - Call established between : 1011 and 1010
+2019-05-07 13:54:24,670 INFO  [9] - Call placed on Hold
+2019-05-07 13:54:24,721 INFO  [9] - Call transfered
+2019-05-07 13:54:54,161 INFO  [9] - Call Cleared
+2019-05-07 14:00:34,269 INFO  [9] - Call Recieved from: 1011 to 1010
+2019-05-07 14:00:41,694 INFO  [9] - Call Answered successfully. Call ID : 96 Call From: 1011 to 1010
+2019-05-07 14:00:41,702 INFO  [9] - Call established between : 1011 and 1010
+2019-05-07 14:00:49,369 INFO  [9] - Call Cleared
+2019-05-07 14:01:08,849 INFO  [9] - Call established between : 1010 and 1011
+2019-05-07 14:01:16,652 INFO  [9] - Call placed on Hold
+2019-05-07 14:01:23,541 INFO  [9] - Call Retrieved
+2019-05-07 14:01:34,518 INFO  [9] - Call placed on Hold
+2019-05-07 14:01:37,117 INFO  [9] - Call Retrieved
+2019-05-07 14:01:44,070 INFO  [9] - Call placed on Hold
+2019-05-07 14:01:46,158 INFO  [9] - Call Retrieved
+2019-05-07 14:02:01,950 INFO  [9] - Agent  Logged Off
+2019-05-07 14:02:03,881 INFO  [9] - Call Cleared
+2019-05-07 14:03:37,996 INFO  [9] - Server Disconnected
+2019-05-07 14:03:38,175 INFO  [9] - Exited AgentLoginApplication
+2019-05-07 14:08:36,070 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 14:40:07,632 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 14:40:51,126 INFO  [9] - Socket Connected
+2019-05-07 14:40:51,129 INFO  [9] - Stream Connected
+2019-05-07 14:41:16,160 INFO  [9] - Call Made. CallID: 98 Call from : 1011 to 4201
+2019-05-07 14:41:54,663 INFO  [9] - Server Disconnected
+2019-05-07 14:41:54,736 INFO  [9] - Exited AgentLoginApplication
+2019-05-07 15:32:44,905 INFO  [10] - Initialized Voice Handling Application
+2019-05-07 15:33:00,114 INFO  [10] - Socket Connected
+2019-05-07 15:33:00,117 INFO  [10] - Stream Connected
+2019-05-07 15:33:15,587 INFO  [10] - Agent  6002 Logged On
+2019-05-07 15:33:15,689 INFO  [10] - Agent State : Aux
+2019-05-07 15:33:15,736 INFO  [10] - Agent State : Aux
+2019-05-07 15:33:30,019 INFO  [10] - Agent  Logged Off
+2019-05-07 15:33:32,325 INFO  [10] - Agent  6002 Logged On
+2019-05-07 15:33:32,430 INFO  [10] - Agent State : Aux
+2019-05-07 15:33:32,479 INFO  [10] - Agent State : Aux
+2019-05-07 15:33:41,254 INFO  [10] - Agent  Logged Off
+2019-05-07 15:33:41,297 INFO  [10] - Monitor Stopped
+2019-05-07 15:39:49,757 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 15:39:57,575 INFO  [9] - Socket Connected
+2019-05-07 15:39:57,583 INFO  [9] - Stream Connected
+2019-05-07 15:40:14,627 INFO  [9] - Agent  6002 Logged On
+2019-05-07 15:40:14,679 INFO  [9] - Agent State : Aux
+2019-05-07 15:40:14,778 INFO  [9] - Agent State : Aux
+2019-05-07 15:44:54,865 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 15:44:58,953 INFO  [9] - Exited Voice Handling Application.
+2019-05-07 15:48:21,392 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 15:48:24,371 INFO  [9] - Exited Voice Handling Application.
+2019-05-07 15:50:28,888 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 15:50:31,536 INFO  [9] - Exited Voice Handling Application.
+2019-05-07 15:51:46,458 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 16:02:28,155 INFO  [8] - Initialized Voice Handling Application
+2019-05-07 16:04:42,788 INFO  [9] - Initialized Voice Handling Application
+2019-05-07 16:04:45,241 INFO  [9] - Exited Voice Handling Application.
+2019-05-07 16:04:50,107 INFO  [10] - Initialized Voice Handling Application
+2019-05-07 16:06:33,537 INFO  [8] - Initialized Voice Handling Application
+2019-05-07 16:07:46,674 INFO  [10] - Initialized Voice Handling Application

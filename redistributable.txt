@@ -1,0 +1,26 @@
+It is assumed that latest version of EMC Desktop is installed on development system and references in the sample application are pointing to installation folder
+'<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop'
+
+Following is the list of redistributable files referenced in Sample Applications.
+
+References\log4net.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASXMLClient.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\CSTASchemas.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGQEClientComm.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGQEDataStoreComm.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGQEDataStoreSimpleMessaging.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGQEGeneral.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASMediaClient.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASMediaControllerInterface.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASMediaStorePluginInterface.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASSimpleMessagingClientComm.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASSimpleMessagingPlugin.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASSMMediaServiceXmlUtilities.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\GenuineChannels.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\GQEError.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASEmailMediaStore.EMail.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASEmailMediaStore.InboundEmail.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASEmailMediaStore.Interface.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASEmailMediaStore.WorkItem.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASEmailPlugin.dll
+<Install_path>\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGUIHEmailControl.dll

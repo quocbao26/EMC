@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\EMC\AgentLoginApplication\AgentLoginApplication\bin\Debug\AgentLoginApplication.exe.config
+C:\Users\User\Desktop\EMC\AgentLoginApplication\AgentLoginApplication\obj\Debug\AgentLoginApplication.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\EMC\AgentLoginApplication\AgentLoginApplication\obj\Debug\AgentLoginApplication.AgentLoginForm.resources
+C:\Users\User\Desktop\EMC\AgentLoginApplication\AgentLoginApplication\obj\Debug\AgentLoginApplication.Properties.Resources.resources
+C:\Users\User\Desktop\EMC\AgentLoginApplication\AgentLoginApplication\obj\Debug\AgentLoginApplication.csproj.GenerateResource.Cache

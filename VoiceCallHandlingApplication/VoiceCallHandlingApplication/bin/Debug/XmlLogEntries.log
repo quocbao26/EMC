@@ -1,0 +1,1310 @@
+<!-- 07/05/19 13:29:43:866 *Closed* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed. (Connect reason = EnumTServersRaiseEVent)</ASXMLClientInfo>
+
+<!-- 07/05/19 13:32:07:17 *SocketConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server naming service(172.23.24.223 : 29096)</ASXMLClientInfo>
+
+<!-- 07/05/19 13:32:07:33 *Sent* (T 9)-->
+<!-- InvokeID: 1001 -->
+<?xml version="1.0" encoding="UTF-8"?><EnumTServersRequest xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></EnumTServersRequest>
+
+<!-- 07/05/19 13:32:07:52 *Closed* (T 16)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed. (Connect reason = EnumTServersRaiseEVent)</ASXMLClientInfo>
+
+<!-- 07/05/19 13:32:07:54 *Received* (T 13)-->
+<!-- InvokeID: 1001 -->
+<?xml version="1.0" encoding="UTF-8" ?><EnumTServersResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><TServerItemList><TServerItem><TServerName>AVAYA#AESLONG#CSTA-S#AESLONG</TServerName><AXMLServerIP>172.23.24.223</AXMLServerIP><AXMLServerPort>49201</AXMLServerPort><AgentEvent>true</AgentEvent></TServerItem></TServerItemList></EnumTServersResponse>
+
+<!-- 07/05/19 13:32:23:478 *Action* (T 9)-->
+<!-- InvokeID:  -->
+ASXMLClient.Connect() 172.23.24.223:29096  AVAYA#AESLONG#CSTA-S#AESLONG
+
+<!-- 07/05/19 13:32:23:486 *SocketConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server naming service(172.23.24.223 : 29096)</ASXMLClientInfo>
+
+<!-- 07/05/19 13:32:23:486 *Sent* (T 9)-->
+<!-- InvokeID: 1002 -->
+<?xml version="1.0" encoding="UTF-8"?><EnumTServersRequest xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></EnumTServersRequest>
+
+<!-- 07/05/19 13:32:23:488 *Received* (T 11)-->
+<!-- InvokeID: 1002 -->
+<?xml version="1.0" encoding="UTF-8" ?><EnumTServersResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><TServerItemList><TServerItem><TServerName>AVAYA#AESLONG#CSTA-S#AESLONG</TServerName><AXMLServerIP>172.23.24.223</AXMLServerIP><AXMLServerPort>49201</AXMLServerPort><AgentEvent>true</AgentEvent></TServerItem></TServerItemList></EnumTServersResponse>
+
+<!-- 07/05/19 13:32:23:488 *Closed* (T 16)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed after TServer info returned.</ASXMLClientInfo>
+
+<!-- 07/05/19 13:32:23:505 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 178 Bytes received.
+
+<!-- 07/05/19 13:32:23:505 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>Licensed</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:32:23:505 *SocketConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server (172.23.24.223 : 49201)</ASXMLClientInfo>
+
+<!-- 07/05/19 13:32:23:507 *StreamConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connected to TServer (172.23.24.223 : 49201)</ASXMLClientInfo>
+
+<!-- 07/05/19 13:33:26:885 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:33:26:885 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:34:56:929 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:34:56:929 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:36:26:976 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:36:26:977 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:37:14:91 *Sent* (T 9)-->
+<!-- InvokeID: 1003 -->
+<?xml version="1.0" encoding="UTF-8"?><MonitorStart xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorObject><deviceObject typeOfNumber="deviceNumber">1010</deviceObject></monitorObject><requestedMonitorFilter><callcontrol><bridged>1</bridged><callCleared>0</callCleared><conferenced>0</conferenced><connectionCleared>0</connectionCleared><delivered>0</delivered><digitsDialed>1</digitsDialed><diverted>0</diverted><established>0</established><failed>0</failed><held>0</held><networkCapabilitiesChanged>1</networkCapabilitiesChanged><networkReached>0</networkReached><offered>1</offered><originated>0</originated><queued>0</queued><retrieved>0</retrieved><serviceInitiated>0</serviceInitiated><transferred>0</transferred></callcontrol><callAssociated><callInformation>1</callInformation><charging>1</charging><digitsGenerated>1</digitsGenerated><telephonyTonesGenerated>1</telephonyTonesGenerated><serviceCompletionFailure>1</serviceCompletionFailure></callAssociated><mediaAttachment><mediaAttached>1</mediaAttached><mediaDetached>1</mediaDetached></mediaAttachment><physicalDeviceFeature><buttonInformation>1</buttonInformation><buttonPress>1</buttonPress><displayUpdated>1</displayUpdated><hookswitch>1</hookswitch><lampMode>1</lampMode><messageWaiting>0</messageWaiting><microphoneGain>1</microphoneGain><microphoneMute>1</microphoneMute><ringerStatus>1</ringerStatus><speakerMute>1</speakerMute><speakerVolume>1</speakerVolume></physicalDeviceFeature><logicalDeviceFeature><agentBusy>0</agentBusy><agentLoggedOn>0</agentLoggedOn><agentLoggedOff>0</agentLoggedOff><agentNotReady>0</agentNotReady><agentReady>0</agentReady><agentWorkingAfterCall>0</agentWorkingAfterCall><autoAnswer>1</autoAnswer><autoWorkMode>1</autoWorkMode><callBack>1</callBack><callBackMessage>1</callBackMessage><callerIDStatus>1</callerIDStatus><doNotDisturb>1</doNotDisturb><forwarding>1</forwarding><routeingMode>1</routeingMode></logicalDeviceFeature><maintenance><backInService>1</backInService><deviceCapabilityChanged>1</deviceCapabilityChanged><outOfService>1</outOfService></maintenance><voice><bookmarkReached>1</bookmarkReached><completed>1</completed><dtmfDetected>1</dtmfDetected><emptied>1</emptied><interruptionDetected>1</interruptionDetected><notRecognized>1</notRecognized><play>1</play><recognized>1</recognized><record>1</record><review>1</review><started>1</started><silenceTimeoutExpired>1</silenceTimeoutExpired><speechDetected>1</speechDetected><stop>1</stop><suspendPlay>1</suspendPlay><suspendRecord>1</suspendRecord><voiceAttributesChanged>1</voiceAttributesChanged><voiceErrorOccurred>1</voiceErrorOccurred></voice><private><private>1</private></private></requestedMonitorFilter><monitorType>device</monitorType></MonitorStart>
+
+<!-- 07/05/19 13:37:14:116 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1172 Bytes received.
+
+<!-- 07/05/19 13:37:14:116 *Received* (T 20)-->
+<!-- InvokeID: 1003 -->
+<?xml version="1.0"?>
+<MonitorStartResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><actualMonitorFilter><callcontrol><callCleared>1</callCleared><conferenced>0</conferenced><connectionCleared>0</connectionCleared><delivered>0</delivered><diverted>0</diverted><established>0</established><failed>0</failed><held>0</held><networkReached>0</networkReached><originated>0</originated><queued>0</queued><retrieved>0</retrieved><serviceInitiated>0</serviceInitiated><transferred>0</transferred></callcontrol><callAssociated><callInformation>1</callInformation></callAssociated><physicalDeviceFeature><messageWaiting>1</messageWaiting></physicalDeviceFeature><logicalDeviceFeature><agentLoggedOn>0</agentLoggedOn><agentLoggedOff>0</agentLoggedOff><agentNotReady>0</agentNotReady><agentReady>0</agentReady><agentWorkingAfterCall>0</agentWorkingAfterCall><autoWorkMode>1</autoWorkMode><doNotDisturb>1</doNotDisturb><forwarding>1</forwarding></logicalDeviceFeature><maintenance><backInService>1</backInService><outOfService>1</outOfService></maintenance></actualMonitorFilter></MonitorStartResponse>
+
+
+<!-- 07/05/19 13:37:14:117 *Sent* (T 9)-->
+<!-- InvokeID: 1004 -->
+<?xml version="1.0"?><Escape xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><privateData><private><QueryDeviceName xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>3</version><deviceID>1010</deviceID></QueryDeviceName></private></privateData></Escape>
+
+<!-- 07/05/19 13:37:14:126 *Sent* (T 9)-->
+<!-- InvokeID: 1005 -->
+<?xml version="1.0" encoding="UTF-8"?><GetDoNotDisturb xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device></GetDoNotDisturb>
+
+<!-- 07/05/19 13:37:14:128 *Sent* (T 9)-->
+<!-- InvokeID: 1006 -->
+<?xml version="1.0" encoding="UTF-8"?><GetForwarding xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device></GetForwarding>
+
+<!-- 07/05/19 13:37:14:130 *Sent* (T 9)-->
+<!-- InvokeID: 1007 -->
+<?xml version="1.0" encoding="UTF-8"?><GetMessageWaitingIndicator xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device></GetMessageWaitingIndicator>
+
+<!-- 07/05/19 13:37:14:131 *Sent* (T 9)-->
+<!-- InvokeID: 1008 -->
+<?xml version="1.0" encoding="UTF-8"?><SnapshotDevice xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><snapshotObject typeOfNumber="deviceNumber">1010</snapshotObject></SnapshotDevice>
+
+<!-- 07/05/19 13:37:14:141 *Sent* (T 9)-->
+<!-- InvokeID: 1009 -->
+<?xml version="1.0" encoding="UTF-8"?><GetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device></GetAgentState>
+
+<!-- 07/05/19 13:37:14:183 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 423 Bytes received.
+
+<!-- 07/05/19 13:37:14:183 *Received* (T 20)-->
+<!-- InvokeID: 1004 -->
+<?xml version="1.0"?>
+<EscapeResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><extensions><privateData><private><QueryDeviceNameResponse xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><deviceID>1010</deviceID><deviceName>AVAYA HELP DESK</deviceName><deviceType>Station</deviceType></QueryDeviceNameResponse></private></privateData></extensions></EscapeResponse>
+
+
+<!-- 07/05/19 13:37:14:225 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 189 Bytes received.
+
+<!-- 07/05/19 13:37:14:225 *Received* (T 20)-->
+<!-- InvokeID: 1005 -->
+<?xml version="1.0"?>
+<GetDoNotDisturbResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><doNotDisturbOn>0</doNotDisturbOn></GetDoNotDisturbResponse>
+
+
+<!-- 07/05/19 13:37:14:268 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1029 Bytes received.
+
+<!-- 07/05/19 13:37:14:272 *Received* (T 20)-->
+<!-- InvokeID: 1006 -->
+<?xml version="1.0"?>
+<GetForwardingResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><forwardingList><forwardListItem><forwardingType>forwardImmediate</forwardingType><forwardStatus>0</forwardStatus><forwardDN></forwardDN></forwardListItem></forwardingList></GetForwardingResponse>
+
+
+<!-- 07/05/19 13:37:14:277 *Received* (T 20)-->
+<!-- InvokeID: 1007 -->
+<?xml version="1.0"?>
+<GetMessageWaitingIndicatorResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><messageWaitingOn>0</messageWaitingOn></GetMessageWaitingIndicatorResponse>
+
+
+<!-- 07/05/19 13:37:14:279 *Received* (T 20)-->
+<!-- InvokeID: 1008 -->
+<?xml version="1.0"?>
+<SnapshotDeviceResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><crossRefIDorSnapshotData><snapshotData/></crossRefIDorSnapshotData></SnapshotDeviceResponse>
+
+
+<!-- 07/05/19 13:37:14:282 *Received* (T 20)-->
+<!-- InvokeID: 1009 -->
+<?xml version="1.0"?>
+<GetAgentStateResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><agentStateList><agentStateEntry><agentID></agentID><loggedOnState>0</loggedOnState></agentStateEntry></agentStateList></GetAgentStateResponse>
+
+
+<!-- 07/05/19 13:37:19:41 *Sent* (T 9)-->
+<!-- InvokeID: 1010 -->
+<?xml version="1.0" encoding="UTF-8"?><SetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device><requestedAgentState>loggedOn</requestedAgentState><agentID>6002</agentID><password>1234</password><hostName>BAO</hostName></SetAgentState>
+
+<!-- 07/05/19 13:37:19:73 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 128 Bytes received.
+
+<!-- 07/05/19 13:37:19:73 *Received* (T 20)-->
+<!-- InvokeID: 1010 -->
+<?xml version="1.0"?>
+<SetAgentStateResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"/>
+
+
+<!-- 07/05/19 13:37:19:116 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 582 Bytes received.
+
+<!-- 07/05/19 13:37:19:116 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AgentLoggedOnEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><agentDevice><deviceIdentifier>1010</deviceIdentifier></agentDevice><agentID>6002</agentID><acdGroup></acdGroup><agentPassword></agentPassword><extensions><privateData><private><PrivateDataAgentLoggedOnEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><workMode>Unspecified</workMode></PrivateDataAgentLoggedOnEvent></private></privateData></extensions></AgentLoggedOnEvent>
+
+
+<!-- 07/05/19 13:37:19:137 *Sent* (T 9)-->
+<!-- InvokeID: 1011 -->
+<?xml version="1.0" encoding="UTF-8"?><GetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device></GetAgentState>
+
+<!-- 07/05/19 13:37:19:139 *Sent* (T 9)-->
+<!-- InvokeID: 1012 -->
+<?xml version="1.0" encoding="UTF-8"?><GetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device></GetAgentState>
+
+<!-- 07/05/19 13:37:19:383 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 916 Bytes received.
+
+<!-- 07/05/19 13:37:19:383 *Received* (T 20)-->
+<!-- InvokeID: 1011 -->
+<?xml version="1.0"?>
+<GetAgentStateResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><agentStateList><agentStateEntry><agentID>6002</agentID><loggedOnState>1</loggedOnState><agentInfo><agentInfoItem><agentState>agentNotReady</agentState></agentInfoItem></agentInfo></agentStateEntry></agentStateList><extensions><privateData><private><PrivateDataGetAgentStateResponseEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><agentPrivateDataList><agentPrivateDataEntry><agentID>6002</agentID><agentPrivateInfo><workMode>WM_AUX_WORK</workMode><reasonCode>0</reasonCode><pendingWorkMode>WM_NONE</pendingWorkMode><pendingReasonCode>0</pendingReasonCode></agentPrivateInfo></agentPrivateDataEntry></agentPrivateDataList><device>1010</device></PrivateDataGetAgentStateResponseEvent></private></privateData></extensions></GetAgentStateResponse>
+
+
+<!-- 07/05/19 13:37:19:434 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 916 Bytes received.
+
+<!-- 07/05/19 13:37:19:434 *Received* (T 20)-->
+<!-- InvokeID: 1012 -->
+<?xml version="1.0"?>
+<GetAgentStateResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><agentStateList><agentStateEntry><agentID>6002</agentID><loggedOnState>1</loggedOnState><agentInfo><agentInfoItem><agentState>agentNotReady</agentState></agentInfoItem></agentInfo></agentStateEntry></agentStateList><extensions><privateData><private><PrivateDataGetAgentStateResponseEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><agentPrivateDataList><agentPrivateDataEntry><agentID>6002</agentID><agentPrivateInfo><workMode>WM_AUX_WORK</workMode><reasonCode>0</reasonCode><pendingWorkMode>WM_NONE</pendingWorkMode><pendingReasonCode>0</pendingReasonCode></agentPrivateInfo></agentPrivateDataEntry></agentPrivateDataList><device>1010</device></PrivateDataGetAgentStateResponseEvent></private></privateData></extensions></GetAgentStateResponse>
+
+
+<!-- 07/05/19 13:37:19:438 *Sent* (T 9)-->
+<!-- InvokeID: 1013 -->
+<?xml version="1.0"?><Escape xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><privateData><private><QueryDeviceName xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>3</version><deviceID>6002</deviceID></QueryDeviceName></private></privateData></Escape>
+
+<!-- 07/05/19 13:37:19:482 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 423 Bytes received.
+
+<!-- 07/05/19 13:37:19:482 *Received* (T 20)-->
+<!-- InvokeID: 1013 -->
+<?xml version="1.0"?>
+<EscapeResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><extensions><privateData><private><QueryDeviceNameResponse xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><deviceID>6002</deviceID><deviceName>Agent 6002</deviceName><deviceType>LogicalAgent</deviceType></QueryDeviceNameResponse></private></privateData></extensions></EscapeResponse>
+
+
+<!-- 07/05/19 13:37:31:833 *Sent* (T 9)-->
+<!-- InvokeID: 1014 -->
+<?xml version="1.0" encoding="UTF-8"?><MakeCall xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callingDevice typeOfNumber="dialingNumber">1010</callingDevice><calledDirectoryNumber typeOfNumber="dialingNumber">1011</calledDirectoryNumber><userData></userData></MakeCall>
+
+<!-- 07/05/19 13:37:31:889 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 216 Bytes received.
+
+<!-- 07/05/19 13:37:31:889 *Received* (T 20)-->
+<!-- InvokeID: 1014 -->
+<?xml version="1.0"?>
+<MakeCallResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callingDevice><callID>82</callID><deviceID>1010</deviceID></callingDevice></MakeCallResponse>
+
+
+<!-- 07/05/19 13:37:31:899 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 2986 Bytes received.
+
+<!-- 07/05/19 13:37:31:899 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ServiceInitiatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><initiatedConnection><callID>82</callID><deviceID>1010</deviceID></initiatedConnection><initiatingDevice><deviceIdentifier>1010</deviceIdentifier></initiatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>normal</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000821557210924</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></ServiceInitiatedEvent>
+
+
+<!-- 07/05/19 13:37:31:908 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<OriginatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><originatedConnection><callID>82</callID><deviceID>1010</deviceID></originatedConnection><callingDevice><deviceIdentifier>1010</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier>1011</deviceIdentifier></calledDevice><originatingDevice>1010</originatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>newCall</cause></OriginatedEvent>
+
+
+<!-- 07/05/19 13:37:31:914 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>82</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1011</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000821557210924</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:37:39:199 *Sent* (T 9)-->
+<!-- InvokeID: 1015 -->
+<?xml version="1.0" encoding="UTF-8"?><ClearCall xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callToBeCleared><callID>82</callID><deviceID typeOfNumber="other">1010</deviceID></callToBeCleared><userData></userData></ClearCall>
+
+<!-- 07/05/19 13:37:39:240 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 13:37:39:240 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>82</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:37:39:288 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 124 Bytes received.
+
+<!-- 07/05/19 13:37:39:288 *Received* (T 20)-->
+<!-- InvokeID: 1015 -->
+<?xml version="1.0"?>
+<ClearCallResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"/>
+
+
+<!-- 07/05/19 13:38:42:223 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1847 Bytes received.
+
+<!-- 07/05/19 13:38:42:224 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>83</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000831557210994</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:39:57:88 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:39:57:88 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:41:27:126 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:41:27:126 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:42:57:172 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:42:57:172 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:44:27:216 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:44:27:216 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:45:57:261 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:45:57:261 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:47:27:307 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:47:27:307 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:48:08:568 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 446 Bytes received.
+
+<!-- 07/05/19 13:48:08:568 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>83</callID><deviceID>1011</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1011</deviceIdentifier></releasingDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:48:08:583 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 13:48:08:583 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>83</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:49:00:754 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1847 Bytes received.
+
+<!-- 07/05/19 13:49:00:754 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>85</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000851557211612</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:49:06:153 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1272 Bytes received.
+
+<!-- 07/05/19 13:49:06:153 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<EstablishedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><establishedConnection><callID>85</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></establishedConnection><answeringDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></answeringDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000851557211612</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></EstablishedEvent>
+
+
+<!-- 07/05/19 13:50:10:92 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 390 Bytes received.
+
+<!-- 07/05/19 13:50:10:92 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<HeldEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><heldConnection><callID>85</callID><deviceID>1011</deviceID></heldConnection><holdingDevice><deviceIdentifier>1011</deviceIdentifier></holdingDevice><localConnectionInfo>connected</localConnectionInfo><cause>normal</cause></HeldEvent>
+
+
+<!-- 07/05/19 13:50:10:135 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1238 Bytes received.
+
+<!-- 07/05/19 13:50:10:135 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<TransferedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><primaryOldCall><callID>85</callID><deviceID>1011</deviceID></primaryOldCall><secondaryOldCall><callID>84</callID><deviceID>1011</deviceID></secondaryOldCall><transferringDevice><deviceIdentifier>1011</deviceIdentifier></transferringDevice><transferredToDevice><deviceIdentifier>1012</deviceIdentifier></transferredToDevice><transferredConnections><connectionListItem><endpoint><deviceID>1010</deviceID></endpoint></connectionListItem><connectionListItem><endpoint><deviceID>1012</deviceID></endpoint></connectionListItem></transferredConnections><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>transfer</cause><callLinkageDataList><newCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000841557211587</subDomainCallLinkageID></globalCallLinkageID></globalCallData></newCallLinkageData><oldCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000851557211612</subDomainCallLinkageID></globalCallLinkageID></globalCallData></oldCallLinkageData></callLinkageDataList></TransferedEvent>
+
+
+<!-- 07/05/19 13:50:34:875 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 385 Bytes received.
+
+<!-- 07/05/19 13:50:34:875 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<HeldEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><heldConnection><callID>84</callID><deviceID>1010</deviceID></heldConnection><holdingDevice><deviceIdentifier>1010</deviceIdentifier></holdingDevice><localConnectionInfo>hold</localConnectionInfo><cause>normal</cause></HeldEvent>
+
+
+<!-- 07/05/19 13:50:34:922 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 610 Bytes received.
+
+<!-- 07/05/19 13:50:34:922 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ServiceInitiatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><initiatedConnection><callID>87</callID><deviceID>1010</deviceID></initiatedConnection><initiatingDevice><deviceIdentifier>1010</deviceIdentifier></initiatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>normal</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000871557211707</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></ServiceInitiatedEvent>
+
+
+<!-- 07/05/19 13:50:34:949 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 528 Bytes received.
+
+<!-- 07/05/19 13:50:34:949 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<OriginatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><originatedConnection><callID>87</callID><deviceID>1010</deviceID></originatedConnection><callingDevice><deviceIdentifier>1010</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier>1011</deviceIdentifier></calledDevice><originatingDevice>1010</originatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>newCall</cause></OriginatedEvent>
+
+
+<!-- 07/05/19 13:50:35:296 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1848 Bytes received.
+
+<!-- 07/05/19 13:50:35:296 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>87</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1011</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000871557211707</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:50:35:891 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1233 Bytes received.
+
+<!-- 07/05/19 13:50:35:891 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<TransferedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><primaryOldCall><callID>84</callID><deviceID>1010</deviceID></primaryOldCall><secondaryOldCall><callID>87</callID><deviceID>1010</deviceID></secondaryOldCall><transferringDevice><deviceIdentifier>1010</deviceIdentifier></transferringDevice><transferredToDevice><deviceIdentifier>1011</deviceIdentifier></transferredToDevice><transferredConnections><connectionListItem><endpoint><deviceID>1011</deviceID></endpoint></connectionListItem><connectionListItem><endpoint><deviceID>1012</deviceID></endpoint></connectionListItem></transferredConnections><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>transfer</cause><callLinkageDataList><newCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000841557211587</subDomainCallLinkageID></globalCallLinkageID></globalCallData></newCallLinkageData><oldCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000851557211612</subDomainCallLinkageID></globalCallLinkageID></globalCallData></oldCallLinkageData></callLinkageDataList></TransferedEvent>
+
+
+<!-- 07/05/19 13:51:02:72 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1847 Bytes received.
+
+<!-- 07/05/19 13:51:02:72 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>88</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000881557211734</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:51:03:94 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1304 Bytes received.
+
+<!-- 07/05/19 13:51:03:94 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConferencedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><primaryOldCall><callID>87</callID><deviceID>1011</deviceID></primaryOldCall><secondaryOldCall><callID>88</callID><deviceID>1011</deviceID></secondaryOldCall><conferencingDevice><deviceIdentifier>1011</deviceIdentifier></conferencingDevice><addedParty><deviceIdentifier>1010</deviceIdentifier></addedParty><conferenceConnections><connectionListItem><endpoint><deviceID>1011</deviceID></endpoint></connectionListItem><connectionListItem><endpoint><deviceID>1010</deviceID></endpoint></connectionListItem><connectionListItem><endpoint><deviceID>1012</deviceID></endpoint></connectionListItem></conferenceConnections><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>normal</cause><callLinkageDataList><newCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000841557211587</subDomainCallLinkageID></globalCallLinkageID></globalCallData></newCallLinkageData><oldCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000851557211612</subDomainCallLinkageID></globalCallLinkageID></globalCallData></oldCallLinkageData></callLinkageDataList></ConferencedEvent>
+
+
+<!-- 07/05/19 13:51:47:736 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1272 Bytes received.
+
+<!-- 07/05/19 13:51:47:736 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<EstablishedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><establishedConnection><callID>88</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></establishedConnection><answeringDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></answeringDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000841557211587</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></EstablishedEvent>
+
+
+<!-- 07/05/19 13:51:58:758 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 13:51:58:758 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>88</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:52:34:837 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1847 Bytes received.
+
+<!-- 07/05/19 13:52:34:837 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>90</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000901557211826</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:52:35:819 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 389 Bytes received.
+
+<!-- 07/05/19 13:52:35:819 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<HeldEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><heldConnection><callID>90</callID><deviceID>1011</deviceID></heldConnection><holdingDevice><deviceIdentifier>1011</deviceIdentifier></holdingDevice><localConnectionInfo>alerting</localConnectionInfo><cause>normal</cause></HeldEvent>
+
+
+<!-- 07/05/19 13:52:44:120 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 415 Bytes received.
+
+<!-- 07/05/19 13:52:44:120 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<RetrievedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><retrievedConnection><callID>90</callID><deviceID>1011</deviceID></retrievedConnection><retrievingDevice><deviceIdentifier>1011</deviceIdentifier></retrievingDevice><localConnectionInfo>alerting</localConnectionInfo><cause>normal</cause></RetrievedEvent>
+
+
+<!-- 07/05/19 13:52:47:437 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 446 Bytes received.
+
+<!-- 07/05/19 13:52:47:437 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>90</callID><deviceID>1011</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1011</deviceIdentifier></releasingDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:52:47:478 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 13:52:47:478 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>90</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:53:06:484 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1847 Bytes received.
+
+<!-- 07/05/19 13:53:06:484 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>92</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000921557211858</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:53:07:506 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1237 Bytes received.
+
+<!-- 07/05/19 13:53:07:506 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<TransferedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><primaryOldCall><callID>91</callID><deviceID>1011</deviceID></primaryOldCall><secondaryOldCall><callID>92</callID><deviceID>1011</deviceID></secondaryOldCall><transferringDevice><deviceIdentifier>1011</deviceIdentifier></transferringDevice><transferredToDevice><deviceIdentifier>1010</deviceIdentifier></transferredToDevice><transferredConnections><connectionListItem><endpoint><deviceID>1010</deviceID></endpoint></connectionListItem><connectionListItem><endpoint><deviceID>1012</deviceID></endpoint></connectionListItem></transferredConnections><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>transfer</cause><callLinkageDataList><newCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000921557211858</subDomainCallLinkageID></globalCallLinkageID></globalCallData></newCallLinkageData><oldCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00000000000000000000</subDomainCallLinkageID></globalCallLinkageID></globalCallData></oldCallLinkageData></callLinkageDataList></TransferedEvent>
+
+
+<!-- 07/05/19 13:53:13:572 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1273 Bytes received.
+
+<!-- 07/05/19 13:53:13:572 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<EstablishedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><establishedConnection><callID>92</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></establishedConnection><answeringDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></answeringDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1012</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>transfer</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000921557211858</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></EstablishedEvent>
+
+
+<!-- 07/05/19 13:53:19:755 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 13:53:19:755 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>92</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:53:58:633 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1847 Bytes received.
+
+<!-- 07/05/19 13:53:58:633 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>94</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000941557211910</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 13:54:03:436 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1272 Bytes received.
+
+<!-- 07/05/19 13:54:03:436 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<EstablishedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><establishedConnection><callID>94</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></establishedConnection><answeringDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></answeringDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000941557211910</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></EstablishedEvent>
+
+
+<!-- 07/05/19 13:54:24:670 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 390 Bytes received.
+
+<!-- 07/05/19 13:54:24:670 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<HeldEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><heldConnection><callID>94</callID><deviceID>1011</deviceID></heldConnection><holdingDevice><deviceIdentifier>1011</deviceIdentifier></holdingDevice><localConnectionInfo>connected</localConnectionInfo><cause>normal</cause></HeldEvent>
+
+
+<!-- 07/05/19 13:54:24:721 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1238 Bytes received.
+
+<!-- 07/05/19 13:54:24:721 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<TransferedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><primaryOldCall><callID>94</callID><deviceID>1011</deviceID></primaryOldCall><secondaryOldCall><callID>93</callID><deviceID>1011</deviceID></secondaryOldCall><transferringDevice><deviceIdentifier>1011</deviceIdentifier></transferringDevice><transferredToDevice><deviceIdentifier>1012</deviceIdentifier></transferredToDevice><transferredConnections><connectionListItem><endpoint><deviceID>1010</deviceID></endpoint></connectionListItem><connectionListItem><endpoint><deviceID>1012</deviceID></endpoint></connectionListItem></transferredConnections><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>transfer</cause><callLinkageDataList><newCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000931557211885</subDomainCallLinkageID></globalCallLinkageID></globalCallData></newCallLinkageData><oldCallLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000941557211910</subDomainCallLinkageID></globalCallLinkageID></globalCallData></oldCallLinkageData></callLinkageDataList></TransferedEvent>
+
+
+<!-- 07/05/19 13:54:54:111 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 447 Bytes received.
+
+<!-- 07/05/19 13:54:54:111 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>93</callID><deviceID>1012</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1012</deviceIdentifier></releasingDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:54:54:161 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 13:54:54:161 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>93</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 13:55:57:563 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:55:57:563 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:57:27:608 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:57:27:608 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 13:58:57:653 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 13:58:57:653 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 14:00:27:707 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 14:00:27:707 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 14:00:34:267 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1847 Bytes received.
+
+<!-- 07/05/19 14:00:34:267 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>96</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>alerting</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000961557212306</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 14:00:41:693 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1272 Bytes received.
+
+<!-- 07/05/19 14:00:41:693 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<EstablishedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><establishedConnection><callID>96</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1010</deviceID></establishedConnection><answeringDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></answeringDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000961557212306</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></EstablishedEvent>
+
+
+<!-- 07/05/19 14:00:49:308 *Sent* (T 9)-->
+<!-- InvokeID: 1016 -->
+<?xml version="1.0" encoding="UTF-8"?><ClearCall xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callToBeCleared><callID>96</callID><deviceID typeOfNumber="other">1010</deviceID></callToBeCleared><userData></userData></ClearCall>
+
+<!-- 07/05/19 14:00:49:368 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 14:00:49:368 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>96</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 14:00:49:419 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 124 Bytes received.
+
+<!-- 07/05/19 14:00:49:419 *Received* (T 20)-->
+<!-- InvokeID: 1016 -->
+<?xml version="1.0"?>
+<ClearCallResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"/>
+
+
+<!-- 07/05/19 14:01:04:361 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 610 Bytes received.
+
+<!-- 07/05/19 14:01:04:361 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ServiceInitiatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><initiatedConnection><callID>97</callID><deviceID>1010</deviceID></initiatedConnection><initiatingDevice><deviceIdentifier>1010</deviceIdentifier></initiatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>normal</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000971557212336</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></ServiceInitiatedEvent>
+
+
+<!-- 07/05/19 14:01:04:369 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 2376 Bytes received.
+
+<!-- 07/05/19 14:01:04:370 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<OriginatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><originatedConnection><callID>97</callID><deviceID>1010</deviceID></originatedConnection><callingDevice><deviceIdentifier>1010</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier>1011</deviceIdentifier></calledDevice><originatingDevice>1010</originatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>newCall</cause></OriginatedEvent>
+
+
+<!-- 07/05/19 14:01:04:370 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<DeliveredEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><connection><callID>97</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1011</deviceID></connection><alertingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></alertingDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><networkCallingDevice><deviceIdentifier>:</deviceIdentifier></networkCallingDevice><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000971557212336</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData><extensions><privateData><private><PrivateDataDeliveredEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><distributingVDN></distributingVDN><splitSkill></splitSkill><userEnteredCode><type>UE_NONE</type><indicator>UE_COLLECT</indicator><data></data><collectVDN><csta:deviceIdentifier xmlns:csta="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></csta:deviceIdentifier></collectVDN></userEnteredCode></PrivateDataDeliveredEvent></private></privateData></extensions></DeliveredEvent>
+
+
+<!-- 07/05/19 14:01:08:848 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1272 Bytes received.
+
+<!-- 07/05/19 14:01:08:848 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<EstablishedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><establishedConnection><callID>97</callID><deviceID xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="other">1011</deviceID></establishedConnection><answeringDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></answeringDevice><callingDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1010</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3" typeOfNumber="explicitPrivate:localNumber">1011</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><localConnectionInfo>connected</localConnectionInfo><userData></userData><cause>newCall</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000971557212336</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></EstablishedEvent>
+
+
+<!-- 07/05/19 14:01:16:652 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 390 Bytes received.
+
+<!-- 07/05/19 14:01:16:652 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<HeldEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><heldConnection><callID>97</callID><deviceID>1011</deviceID></heldConnection><holdingDevice><deviceIdentifier>1011</deviceIdentifier></holdingDevice><localConnectionInfo>connected</localConnectionInfo><cause>normal</cause></HeldEvent>
+
+
+<!-- 07/05/19 14:01:23:541 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 416 Bytes received.
+
+<!-- 07/05/19 14:01:23:541 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<RetrievedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><retrievedConnection><callID>97</callID><deviceID>1011</deviceID></retrievedConnection><retrievingDevice><deviceIdentifier>1011</deviceIdentifier></retrievingDevice><localConnectionInfo>connected</localConnectionInfo><cause>normal</cause></RetrievedEvent>
+
+
+<!-- 07/05/19 14:01:34:517 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 385 Bytes received.
+
+<!-- 07/05/19 14:01:34:517 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<HeldEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><heldConnection><callID>97</callID><deviceID>1010</deviceID></heldConnection><holdingDevice><deviceIdentifier>1010</deviceIdentifier></holdingDevice><localConnectionInfo>hold</localConnectionInfo><cause>normal</cause></HeldEvent>
+
+
+<!-- 07/05/19 14:01:37:117 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 416 Bytes received.
+
+<!-- 07/05/19 14:01:37:117 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<RetrievedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><retrievedConnection><callID>97</callID><deviceID>1010</deviceID></retrievedConnection><retrievingDevice><deviceIdentifier>1010</deviceIdentifier></retrievingDevice><localConnectionInfo>connected</localConnectionInfo><cause>normal</cause></RetrievedEvent>
+
+
+<!-- 07/05/19 14:01:44:70 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 390 Bytes received.
+
+<!-- 07/05/19 14:01:44:70 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<HeldEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><heldConnection><callID>97</callID><deviceID>1011</deviceID></heldConnection><holdingDevice><deviceIdentifier>1011</deviceIdentifier></holdingDevice><localConnectionInfo>connected</localConnectionInfo><cause>normal</cause></HeldEvent>
+
+
+<!-- 07/05/19 14:01:46:158 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 416 Bytes received.
+
+<!-- 07/05/19 14:01:46:158 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<RetrievedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><retrievedConnection><callID>97</callID><deviceID>1011</deviceID></retrievedConnection><retrievingDevice><deviceIdentifier>1011</deviceIdentifier></retrievingDevice><localConnectionInfo>connected</localConnectionInfo><cause>normal</cause></RetrievedEvent>
+
+
+<!-- 07/05/19 14:01:57:622 *Sent* (T 9)-->
+<!-- InvokeID: 1017 -->
+<?xml version="1.0" encoding="UTF-8"?><SetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device><requestedAgentState>ready</requestedAgentState><agentID>6002</agentID><password>1234</password></SetAgentState>
+
+<!-- 07/05/19 14:01:57:638 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 204 Bytes received.
+
+<!-- 07/05/19 14:01:57:638 *Received* (T 20)-->
+<!-- InvokeID: 1017 -->
+<?xml version="1.0"?>
+<CSTAErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><systemResourceAvailibility>resourceBusy</systemResourceAvailibility></CSTAErrorCode>
+
+
+<!-- 07/05/19 14:01:59:258 *Sent* (T 9)-->
+<!-- InvokeID: 1018 -->
+<?xml version="1.0" encoding="UTF-8"?><SetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device><requestedAgentState>workingAfterCall</requestedAgentState><agentID>6002</agentID><password>1234</password></SetAgentState>
+
+<!-- 07/05/19 14:01:59:277 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 204 Bytes received.
+
+<!-- 07/05/19 14:01:59:277 *Received* (T 20)-->
+<!-- InvokeID: 1018 -->
+<?xml version="1.0"?>
+<CSTAErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><systemResourceAvailibility>resourceBusy</systemResourceAvailibility></CSTAErrorCode>
+
+
+<!-- 07/05/19 14:02:01:409 *Sent* (T 9)-->
+<!-- InvokeID: 1019 -->
+<?xml version="1.0" encoding="UTF-8"?><SetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1010</device><requestedAgentState>loggedOff</requestedAgentState><agentID>6002</agentID><password>1234</password></SetAgentState>
+
+<!-- 07/05/19 14:02:01:419 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 128 Bytes received.
+
+<!-- 07/05/19 14:02:01:419 *Received* (T 20)-->
+<!-- InvokeID: 1019 -->
+<?xml version="1.0"?>
+<SetAgentStateResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"/>
+
+
+<!-- 07/05/19 14:02:01:948 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 545 Bytes received.
+
+<!-- 07/05/19 14:02:01:948 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AgentLoggedOffEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><agentDevice><deviceIdentifier>1010</deviceIdentifier></agentDevice><agentID></agentID><acdGroup></acdGroup><extensions><privateData><private><PrivateDataAgentLoggedOffEvent xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>1</version><reasonCode>0</reasonCode></PrivateDataAgentLoggedOffEvent></private></privateData></extensions></AgentLoggedOffEvent>
+
+
+<!-- 07/05/19 14:02:03:826 *Sent* (T 9)-->
+<!-- InvokeID: 1020 -->
+<?xml version="1.0" encoding="UTF-8"?><ClearCall xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callToBeCleared><callID>97</callID><deviceID typeOfNumber="other">1010</deviceID></callToBeCleared><userData></userData></ClearCall>
+
+<!-- 07/05/19 14:02:03:881 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 442 Bytes received.
+
+<!-- 07/05/19 14:02:03:881 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ConnectionClearedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID><droppedConnection><callID>97</callID><deviceID>1010</deviceID></droppedConnection><releasingDevice><deviceIdentifier>1010</deviceIdentifier></releasingDevice><localConnectionInfo>null</localConnectionInfo><userData></userData><cause>normal</cause></ConnectionClearedEvent>
+
+
+<!-- 07/05/19 14:02:03:922 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 124 Bytes received.
+
+<!-- 07/05/19 14:02:03:922 *Received* (T 20)-->
+<!-- InvokeID: 1020 -->
+<?xml version="1.0"?>
+<ClearCallResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"/>
+
+
+<!-- 07/05/19 14:03:27:789 *Received* (T 20)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 179 Bytes received.
+
+<!-- 07/05/19 14:03:27:789 *Received* (T 20)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>HeartBeat</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 14:03:37:994 *Sent* (T 9)-->
+<!-- InvokeID: 1021 -->
+<?xml version="1.0" encoding="UTF-8"?><MonitorStop xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>21</monitorCrossRefID></MonitorStop>
+
+<!-- 07/05/19 14:03:37:995 *Action* (T 9)-->
+<!-- InvokeID:  -->
+ASXMLClient.Disconnect()
+
+<!-- 07/05/19 14:40:33:956 *Closed* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed. (Connect reason = EnumTServersRaiseEVent)</ASXMLClientInfo>
+
+<!-- 07/05/19 14:40:50:134 *SocketConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server naming service(172.23.24.223 : 29096)</ASXMLClientInfo>
+
+<!-- 07/05/19 14:40:50:153 *Sent* (T 9)-->
+<!-- InvokeID: 1001 -->
+<?xml version="1.0" encoding="UTF-8"?><EnumTServersRequest xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></EnumTServersRequest>
+
+<!-- 07/05/19 14:40:50:172 *Closed* (T 16)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed. (Connect reason = EnumTServersRaiseEVent)</ASXMLClientInfo>
+
+<!-- 07/05/19 14:40:50:175 *Received* (T 12)-->
+<!-- InvokeID: 1001 -->
+<?xml version="1.0" encoding="UTF-8" ?><EnumTServersResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><TServerItemList><TServerItem><TServerName>AVAYA#AESLONG#CSTA-S#AESLONG</TServerName><AXMLServerIP>172.23.24.223</AXMLServerIP><AXMLServerPort>49201</AXMLServerPort><AgentEvent>true</AgentEvent></TServerItem></TServerItemList></EnumTServersResponse>
+
+<!-- 07/05/19 14:40:51:96 *Action* (T 9)-->
+<!-- InvokeID:  -->
+ASXMLClient.Connect() 172.23.24.223:29096  AVAYA#AESLONG#CSTA-S#AESLONG
+
+<!-- 07/05/19 14:40:51:106 *SocketConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server naming service(172.23.24.223 : 29096)</ASXMLClientInfo>
+
+<!-- 07/05/19 14:40:51:106 *Sent* (T 9)-->
+<!-- InvokeID: 1002 -->
+<?xml version="1.0" encoding="UTF-8"?><EnumTServersRequest xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></EnumTServersRequest>
+
+<!-- 07/05/19 14:40:51:115 *Received* (T 18)-->
+<!-- InvokeID: 1002 -->
+<?xml version="1.0" encoding="UTF-8" ?><EnumTServersResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><TServerItemList><TServerItem><TServerName>AVAYA#AESLONG#CSTA-S#AESLONG</TServerName><AXMLServerIP>172.23.24.223</AXMLServerIP><AXMLServerPort>49201</AXMLServerPort><AgentEvent>true</AgentEvent></TServerItem></TServerItemList></EnumTServersResponse>
+
+<!-- 07/05/19 14:40:51:115 *Closed* (T 13)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed after TServer info returned.</ASXMLClientInfo>
+
+<!-- 07/05/19 14:40:51:126 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 178 Bytes received.
+
+<!-- 07/05/19 14:40:51:126 *Received* (T 19)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>Licensed</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 14:40:51:126 *SocketConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server (172.23.24.223 : 49201)</ASXMLClientInfo>
+
+<!-- 07/05/19 14:40:51:129 *StreamConnected* (T 9)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connected to TServer (172.23.24.223 : 49201)</ASXMLClientInfo>
+
+<!-- 07/05/19 14:41:03:968 *Sent* (T 9)-->
+<!-- InvokeID: 1003 -->
+<?xml version="1.0" encoding="UTF-8"?><MonitorStart xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorObject><deviceObject typeOfNumber="deviceNumber">1011</deviceObject></monitorObject><requestedMonitorFilter><callcontrol><bridged>1</bridged><callCleared>0</callCleared><conferenced>0</conferenced><connectionCleared>0</connectionCleared><delivered>0</delivered><digitsDialed>1</digitsDialed><diverted>0</diverted><established>0</established><failed>0</failed><held>0</held><networkCapabilitiesChanged>1</networkCapabilitiesChanged><networkReached>0</networkReached><offered>1</offered><originated>0</originated><queued>0</queued><retrieved>0</retrieved><serviceInitiated>0</serviceInitiated><transferred>0</transferred></callcontrol><callAssociated><callInformation>1</callInformation><charging>1</charging><digitsGenerated>1</digitsGenerated><telephonyTonesGenerated>1</telephonyTonesGenerated><serviceCompletionFailure>1</serviceCompletionFailure></callAssociated><mediaAttachment><mediaAttached>1</mediaAttached><mediaDetached>1</mediaDetached></mediaAttachment><physicalDeviceFeature><buttonInformation>1</buttonInformation><buttonPress>1</buttonPress><displayUpdated>1</displayUpdated><hookswitch>1</hookswitch><lampMode>1</lampMode><messageWaiting>0</messageWaiting><microphoneGain>1</microphoneGain><microphoneMute>1</microphoneMute><ringerStatus>1</ringerStatus><speakerMute>1</speakerMute><speakerVolume>1</speakerVolume></physicalDeviceFeature><logicalDeviceFeature><agentBusy>0</agentBusy><agentLoggedOn>0</agentLoggedOn><agentLoggedOff>0</agentLoggedOff><agentNotReady>0</agentNotReady><agentReady>0</agentReady><agentWorkingAfterCall>0</agentWorkingAfterCall><autoAnswer>1</autoAnswer><autoWorkMode>1</autoWorkMode><callBack>1</callBack><callBackMessage>1</callBackMessage><callerIDStatus>1</callerIDStatus><doNotDisturb>1</doNotDisturb><forwarding>1</forwarding><routeingMode>1</routeingMode></logicalDeviceFeature><maintenance><backInService>1</backInService><deviceCapabilityChanged>1</deviceCapabilityChanged><outOfService>1</outOfService></maintenance><voice><bookmarkReached>1</bookmarkReached><completed>1</completed><dtmfDetected>1</dtmfDetected><emptied>1</emptied><interruptionDetected>1</interruptionDetected><notRecognized>1</notRecognized><play>1</play><recognized>1</recognized><record>1</record><review>1</review><started>1</started><silenceTimeoutExpired>1</silenceTimeoutExpired><speechDetected>1</speechDetected><stop>1</stop><suspendPlay>1</suspendPlay><suspendRecord>1</suspendRecord><voiceAttributesChanged>1</voiceAttributesChanged><voiceErrorOccurred>1</voiceErrorOccurred></voice><private><private>1</private></private></requestedMonitorFilter><monitorType>device</monitorType></MonitorStart>
+
+<!-- 07/05/19 14:41:03:971 *Sent* (T 9)-->
+<!-- InvokeID: 1004 -->
+<?xml version="1.0"?><Escape xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><privateData><private><QueryDeviceName xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>3</version><deviceID>1011</deviceID></QueryDeviceName></private></privateData></Escape>
+
+<!-- 07/05/19 14:41:04:5 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1172 Bytes received.
+
+<!-- 07/05/19 14:41:04:6 *Received* (T 19)-->
+<!-- InvokeID: 1003 -->
+<?xml version="1.0"?>
+<MonitorStartResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>33</monitorCrossRefID><actualMonitorFilter><callcontrol><callCleared>1</callCleared><conferenced>0</conferenced><connectionCleared>0</connectionCleared><delivered>0</delivered><diverted>0</diverted><established>0</established><failed>0</failed><held>0</held><networkReached>0</networkReached><originated>0</originated><queued>0</queued><retrieved>0</retrieved><serviceInitiated>0</serviceInitiated><transferred>0</transferred></callcontrol><callAssociated><callInformation>1</callInformation></callAssociated><physicalDeviceFeature><messageWaiting>1</messageWaiting></physicalDeviceFeature><logicalDeviceFeature><agentLoggedOn>0</agentLoggedOn><agentLoggedOff>0</agentLoggedOff><agentNotReady>0</agentNotReady><agentReady>0</agentReady><agentWorkingAfterCall>0</agentWorkingAfterCall><autoWorkMode>1</autoWorkMode><doNotDisturb>1</doNotDisturb><forwarding>1</forwarding></logicalDeviceFeature><maintenance><backInService>1</backInService><outOfService>1</outOfService></maintenance></actualMonitorFilter></MonitorStartResponse>
+
+
+<!-- 07/05/19 14:41:04:15 *Sent* (T 9)-->
+<!-- InvokeID: 1005 -->
+<?xml version="1.0" encoding="UTF-8"?><GetDoNotDisturb xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetDoNotDisturb>
+
+<!-- 07/05/19 14:41:04:17 *Sent* (T 9)-->
+<!-- InvokeID: 1006 -->
+<?xml version="1.0" encoding="UTF-8"?><GetForwarding xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetForwarding>
+
+<!-- 07/05/19 14:41:04:20 *Sent* (T 9)-->
+<!-- InvokeID: 1007 -->
+<?xml version="1.0" encoding="UTF-8"?><GetMessageWaitingIndicator xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetMessageWaitingIndicator>
+
+<!-- 07/05/19 14:41:04:21 *Sent* (T 9)-->
+<!-- InvokeID: 1008 -->
+<?xml version="1.0" encoding="UTF-8"?><SnapshotDevice xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><snapshotObject typeOfNumber="deviceNumber">1011</snapshotObject></SnapshotDevice>
+
+<!-- 07/05/19 14:41:04:28 *Sent* (T 9)-->
+<!-- InvokeID: 1009 -->
+<?xml version="1.0" encoding="UTF-8"?><GetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetAgentState>
+
+<!-- 07/05/19 14:41:04:28 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 413 Bytes received.
+
+<!-- 07/05/19 14:41:04:28 *Received* (T 19)-->
+<!-- InvokeID: 1004 -->
+<?xml version="1.0"?>
+<EscapeResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><extensions><privateData><private><QueryDeviceNameResponse xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><deviceID>1011</deviceID><deviceName>test1</deviceName><deviceType>Station</deviceType></QueryDeviceNameResponse></private></privateData></extensions></EscapeResponse>
+
+
+<!-- 07/05/19 14:41:04:56 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 189 Bytes received.
+
+<!-- 07/05/19 14:41:04:56 *Received* (T 19)-->
+<!-- InvokeID: 1005 -->
+<?xml version="1.0"?>
+<GetDoNotDisturbResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><doNotDisturbOn>0</doNotDisturbOn></GetDoNotDisturbResponse>
+
+
+<!-- 07/05/19 14:41:04:109 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 323 Bytes received.
+
+<!-- 07/05/19 14:41:04:109 *Received* (T 19)-->
+<!-- InvokeID: 1006 -->
+<?xml version="1.0"?>
+<GetForwardingResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><forwardingList><forwardListItem><forwardingType>forwardImmediate</forwardingType><forwardStatus>0</forwardStatus><forwardDN></forwardDN></forwardListItem></forwardingList></GetForwardingResponse>
+
+
+<!-- 07/05/19 14:41:04:161 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 215 Bytes received.
+
+<!-- 07/05/19 14:41:04:161 *Received* (T 19)-->
+<!-- InvokeID: 1007 -->
+<?xml version="1.0"?>
+<GetMessageWaitingIndicatorResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><messageWaitingOn>0</messageWaitingOn></GetMessageWaitingIndicatorResponse>
+
+
+<!-- 07/05/19 14:41:04:203 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 491 Bytes received.
+
+<!-- 07/05/19 14:41:04:205 *Received* (T 19)-->
+<!-- InvokeID: 1008 -->
+<?xml version="1.0"?>
+<SnapshotDeviceResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><crossRefIDorSnapshotData><snapshotData/></crossRefIDorSnapshotData></SnapshotDeviceResponse>
+
+
+<!-- 07/05/19 14:41:04:209 *Received* (T 19)-->
+<!-- InvokeID: 1009 -->
+<?xml version="1.0"?>
+<GetAgentStateResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><agentStateList><agentStateEntry><agentID></agentID><loggedOnState>0</loggedOnState></agentStateEntry></agentStateList></GetAgentStateResponse>
+
+
+<!-- 07/05/19 14:41:16:102 *Sent* (T 9)-->
+<!-- InvokeID: 1010 -->
+<?xml version="1.0" encoding="UTF-8"?><MakeCall xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callingDevice typeOfNumber="dialingNumber">1011</callingDevice><calledDirectoryNumber typeOfNumber="dialingNumber">4201</calledDirectoryNumber><userData></userData></MakeCall>
+
+<!-- 07/05/19 14:41:16:150 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 216 Bytes received.
+
+<!-- 07/05/19 14:41:16:150 *Received* (T 19)-->
+<!-- InvokeID: 1010 -->
+<?xml version="1.0"?>
+<MakeCallResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callingDevice><callID>98</callID><deviceID>1011</deviceID></callingDevice></MakeCallResponse>
+
+
+<!-- 07/05/19 14:41:16:202 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1138 Bytes received.
+
+<!-- 07/05/19 14:41:16:202 *Received* (T 19)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<ServiceInitiatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>33</monitorCrossRefID><initiatedConnection><callID>98</callID><deviceID>1011</deviceID></initiatedConnection><initiatingDevice><deviceIdentifier>1011</deviceIdentifier></initiatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>normal</cause><callLinkageData><globalCallData><globalCallLinkageID><subDomainCallLinkageID>00001000981557214748</subDomainCallLinkageID></globalCallLinkageID></globalCallData></callLinkageData></ServiceInitiatedEvent>
+
+
+<!-- 07/05/19 14:41:16:211 *Received* (T 19)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<OriginatedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>33</monitorCrossRefID><originatedConnection><callID>98</callID><deviceID>1011</deviceID></originatedConnection><callingDevice><deviceIdentifier>1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier>4201</deviceIdentifier></calledDevice><originatingDevice>1011</originatingDevice><localConnectionInfo>initiated</localConnectionInfo><cause>newCall</cause></OriginatedEvent>
+
+
+<!-- 07/05/19 14:41:17:172 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 631 Bytes received.
+
+<!-- 07/05/19 14:41:17:172 *Received* (T 19)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<QueuedEvent xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>33</monitorCrossRefID><queuedConnection><callID>98</callID><deviceID>5012</deviceID></queuedConnection><queue><deviceIdentifier>5012</deviceIdentifier></queue><callingDevice><deviceIdentifier>1011</deviceIdentifier></callingDevice><calledDevice><deviceIdentifier>4201</deviceIdentifier></calledDevice><lastRedirectionDevice><numberDialed></numberDialed></lastRedirectionDevice><numberQueued>1</numberQueued><localConnectionInfo>connected</localConnectionInfo><cause>newCall</cause></QueuedEvent>
+
+
+<!-- 07/05/19 14:41:50:191 *Sent* (T 9)-->
+<!-- InvokeID: 1011 -->
+<?xml version="1.0" encoding="UTF-8"?><MakeCall xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><callingDevice typeOfNumber="dialingNumber">1011</callingDevice><calledDirectoryNumber typeOfNumber="dialingNumber">1010</calledDirectoryNumber><userData></userData></MakeCall>
+
+<!-- 07/05/19 14:41:50:238 *Received* (T 19)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 204 Bytes received.
+
+<!-- 07/05/19 14:41:50:238 *Received* (T 19)-->
+<!-- InvokeID: 1011 -->
+<?xml version="1.0"?>
+<CSTAErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><systemResourceAvailibility>resourceBusy</systemResourceAvailibility></CSTAErrorCode>
+
+
+<!-- 07/05/19 14:41:54:661 *Sent* (T 9)-->
+<!-- InvokeID: 1012 -->
+<?xml version="1.0" encoding="UTF-8"?><MonitorStop xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>33</monitorCrossRefID></MonitorStop>
+
+<!-- 07/05/19 14:41:54:662 *Action* (T 9)-->
+<!-- InvokeID:  -->
+ASXMLClient.Disconnect()
+
+<!-- 07/05/19 15:32:59:238 *SocketConnected* (T 10)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server naming service(172.23.24.223 : 29096)</ASXMLClientInfo>
+
+<!-- 07/05/19 15:32:59:242 *Sent* (T 10)-->
+<!-- InvokeID: 1001 -->
+<?xml version="1.0" encoding="UTF-8"?><EnumTServersRequest xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></EnumTServersRequest>
+
+<!-- 07/05/19 15:32:59:264 *Received* (T 12)-->
+<!-- InvokeID: 1001 -->
+<?xml version="1.0" encoding="UTF-8" ?><EnumTServersResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><TServerItemList><TServerItem><TServerName>AVAYA#AESLONG#CSTA-S#AESLONG</TServerName><AXMLServerIP>172.23.24.223</AXMLServerIP><AXMLServerPort>49201</AXMLServerPort><AgentEvent>true</AgentEvent></TServerItem></TServerItemList></EnumTServersResponse>
+
+<!-- 07/05/19 15:32:59:268 *Closed* (T 14)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed. (Connect reason = EnumTServersRaiseEVent)</ASXMLClientInfo>
+
+<!-- 07/05/19 15:33:00:57 *Action* (T 10)-->
+<!-- InvokeID:  -->
+ASXMLClient.Connect() 172.23.24.223:29096  AVAYA#AESLONG#CSTA-S#AESLONG
+
+<!-- 07/05/19 15:33:00:67 *SocketConnected* (T 10)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server naming service(172.23.24.223 : 29096)</ASXMLClientInfo>
+
+<!-- 07/05/19 15:33:00:67 *Sent* (T 10)-->
+<!-- InvokeID: 1002 -->
+<?xml version="1.0" encoding="UTF-8"?><EnumTServersRequest xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"></EnumTServersRequest>
+
+<!-- 07/05/19 15:33:00:99 *Closed* (T 15)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connection with XML Server naming service closed after TServer info returned.</ASXMLClientInfo>
+
+<!-- 07/05/19 15:33:00:99 *Received* (T 16)-->
+<!-- InvokeID: 1002 -->
+<?xml version="1.0" encoding="UTF-8" ?><EnumTServersResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><TServerItemList><TServerItem><TServerName>AVAYA#AESLONG#CSTA-S#AESLONG</TServerName><AXMLServerIP>172.23.24.223</AXMLServerIP><AXMLServerPort>49201</AXMLServerPort><AgentEvent>true</AgentEvent></TServerItem></TServerItemList></EnumTServersResponse>
+
+<!-- 07/05/19 15:33:00:114 *Received* (T 17)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 178 Bytes received.
+
+<!-- 07/05/19 15:33:00:114 *Received* (T 17)-->
+<!-- InvokeID: 9999 -->
+<?xml version="1.0"?>
+<AXMLSErrorCode xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><axmlsOperation>Licensed</axmlsOperation></AXMLSErrorCode>
+
+
+<!-- 07/05/19 15:33:00:114 *SocketConnected* (T 10)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Socket connection established with the XML Server (172.23.24.223 : 49201)</ASXMLClientInfo>
+
+<!-- 07/05/19 15:33:00:116 *StreamConnected* (T 10)-->
+<!-- InvokeID: None -->
+<ASXMLClientInfo>Connected to TServer (172.23.24.223 : 49201)</ASXMLClientInfo>
+
+<!-- 07/05/19 15:33:11:202 *Sent* (T 10)-->
+<!-- InvokeID: 1003 -->
+<?xml version="1.0" encoding="UTF-8"?><MonitorStart xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorObject><deviceObject typeOfNumber="deviceNumber">1011</deviceObject></monitorObject><requestedMonitorFilter><callcontrol><bridged>1</bridged><callCleared>0</callCleared><conferenced>0</conferenced><connectionCleared>0</connectionCleared><delivered>0</delivered><digitsDialed>1</digitsDialed><diverted>0</diverted><established>0</established><failed>0</failed><held>0</held><networkCapabilitiesChanged>1</networkCapabilitiesChanged><networkReached>0</networkReached><offered>1</offered><originated>0</originated><queued>0</queued><retrieved>0</retrieved><serviceInitiated>0</serviceInitiated><transferred>0</transferred></callcontrol><callAssociated><callInformation>1</callInformation><charging>1</charging><digitsGenerated>1</digitsGenerated><telephonyTonesGenerated>1</telephonyTonesGenerated><serviceCompletionFailure>1</serviceCompletionFailure></callAssociated><mediaAttachment><mediaAttached>1</mediaAttached><mediaDetached>1</mediaDetached></mediaAttachment><physicalDeviceFeature><buttonInformation>1</buttonInformation><buttonPress>1</buttonPress><displayUpdated>1</displayUpdated><hookswitch>1</hookswitch><lampMode>1</lampMode><messageWaiting>0</messageWaiting><microphoneGain>1</microphoneGain><microphoneMute>1</microphoneMute><ringerStatus>1</ringerStatus><speakerMute>1</speakerMute><speakerVolume>1</speakerVolume></physicalDeviceFeature><logicalDeviceFeature><agentBusy>0</agentBusy><agentLoggedOn>0</agentLoggedOn><agentLoggedOff>0</agentLoggedOff><agentNotReady>0</agentNotReady><agentReady>0</agentReady><agentWorkingAfterCall>0</agentWorkingAfterCall><autoAnswer>1</autoAnswer><autoWorkMode>1</autoWorkMode><callBack>1</callBack><callBackMessage>1</callBackMessage><callerIDStatus>1</callerIDStatus><doNotDisturb>1</doNotDisturb><forwarding>1</forwarding><routeingMode>1</routeingMode></logicalDeviceFeature><maintenance><backInService>1</backInService><deviceCapabilityChanged>1</deviceCapabilityChanged><outOfService>1</outOfService></maintenance><voice><bookmarkReached>1</bookmarkReached><completed>1</completed><dtmfDetected>1</dtmfDetected><emptied>1</emptied><interruptionDetected>1</interruptionDetected><notRecognized>1</notRecognized><play>1</play><recognized>1</recognized><record>1</record><review>1</review><started>1</started><silenceTimeoutExpired>1</silenceTimeoutExpired><speechDetected>1</speechDetected><stop>1</stop><suspendPlay>1</suspendPlay><suspendRecord>1</suspendRecord><voiceAttributesChanged>1</voiceAttributesChanged><voiceErrorOccurred>1</voiceErrorOccurred></voice><private><private>1</private></private></requestedMonitorFilter><monitorType>device</monitorType></MonitorStart>
+
+<!-- 07/05/19 15:33:11:204 *Sent* (T 10)-->
+<!-- InvokeID: 1004 -->
+<?xml version="1.0"?><Escape xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><privateData><private><QueryDeviceName xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><version>3</version><deviceID>1011</deviceID></QueryDeviceName></private></privateData></Escape>
+
+<!-- 07/05/19 15:33:11:246 *Received* (T 17)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 1172 Bytes received.
+
+<!-- 07/05/19 15:33:11:246 *Received* (T 17)-->
+<!-- InvokeID: 1003 -->
+<?xml version="1.0"?>
+<MonitorStartResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><monitorCrossRefID>35</monitorCrossRefID><actualMonitorFilter><callcontrol><callCleared>1</callCleared><conferenced>0</conferenced><connectionCleared>0</connectionCleared><delivered>0</delivered><diverted>0</diverted><established>0</established><failed>0</failed><held>0</held><networkReached>0</networkReached><originated>0</originated><queued>0</queued><retrieved>0</retrieved><serviceInitiated>0</serviceInitiated><transferred>0</transferred></callcontrol><callAssociated><callInformation>1</callInformation></callAssociated><physicalDeviceFeature><messageWaiting>1</messageWaiting></physicalDeviceFeature><logicalDeviceFeature><agentLoggedOn>0</agentLoggedOn><agentLoggedOff>0</agentLoggedOff><agentNotReady>0</agentNotReady><agentReady>0</agentReady><agentWorkingAfterCall>0</agentWorkingAfterCall><autoWorkMode>1</autoWorkMode><doNotDisturb>1</doNotDisturb><forwarding>1</forwarding></logicalDeviceFeature><maintenance><backInService>1</backInService><outOfService>1</outOfService></maintenance></actualMonitorFilter></MonitorStartResponse>
+
+
+<!-- 07/05/19 15:33:11:256 *Sent* (T 10)-->
+<!-- InvokeID: 1005 -->
+<?xml version="1.0" encoding="UTF-8"?><GetDoNotDisturb xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetDoNotDisturb>
+
+<!-- 07/05/19 15:33:11:257 *Sent* (T 10)-->
+<!-- InvokeID: 1006 -->
+<?xml version="1.0" encoding="UTF-8"?><GetForwarding xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetForwarding>
+
+<!-- 07/05/19 15:33:11:259 *Sent* (T 10)-->
+<!-- InvokeID: 1007 -->
+<?xml version="1.0" encoding="UTF-8"?><GetMessageWaitingIndicator xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetMessageWaitingIndicator>
+
+<!-- 07/05/19 15:33:11:261 *Sent* (T 10)-->
+<!-- InvokeID: 1008 -->
+<?xml version="1.0" encoding="UTF-8"?><SnapshotDevice xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><snapshotObject typeOfNumber="deviceNumber">1011</snapshotObject></SnapshotDevice>
+
+<!-- 07/05/19 15:33:11:271 *Sent* (T 10)-->
+<!-- InvokeID: 1009 -->
+<?xml version="1.0" encoding="UTF-8"?><GetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device></GetAgentState>
+
+<!-- 07/05/19 15:33:11:271 *Received* (T 17)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 413 Bytes received.
+
+<!-- 07/05/19 15:33:11:271 *Received* (T 17)-->
+<!-- InvokeID: 1004 -->
+<?xml version="1.0"?>
+<EscapeResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><extensions><privateData><private><QueryDeviceNameResponse xmlns="http://www.avayacontactcenterexpress.com/csta3/privatedata"><deviceID>1011</deviceID><deviceName>test1</deviceName><deviceType>Station</deviceType></QueryDeviceNameResponse></private></privateData></extensions></EscapeResponse>
+
+
+<!-- 07/05/19 15:33:11:296 *Received* (T 17)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 189 Bytes received.
+
+<!-- 07/05/19 15:33:11:296 *Received* (T 17)-->
+<!-- InvokeID: 1005 -->
+<?xml version="1.0"?>
+<GetDoNotDisturbResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><doNotDisturbOn>0</doNotDisturbOn></GetDoNotDisturbResponse>
+
+
+<!-- 07/05/19 15:33:11:346 *Received* (T 17)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 323 Bytes received.
+
+<!-- 07/05/19 15:33:11:346 *Received* (T 17)-->
+<!-- InvokeID: 1006 -->
+<?xml version="1.0"?>
+<GetForwardingResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><forwardingList><forwardListItem><forwardingType>forwardImmediate</forwardingType><forwardStatus>0</forwardStatus><forwardDN></forwardDN></forwardListItem></forwardingList></GetForwardingResponse>
+
+
+<!-- 07/05/19 15:33:11:398 *Received* (T 17)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 215 Bytes received.
+
+<!-- 07/05/19 15:33:11:398 *Received* (T 17)-->
+<!-- InvokeID: 1007 -->
+<?xml version="1.0"?>
+<GetMessageWaitingIndicatorResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><messageWaitingOn>0</messageWaitingOn></GetMessageWaitingIndicatorResponse>
+
+
+<!-- 07/05/19 15:33:11:439 *Received* (T 17)-->
+<!-- InvokeID:  -->
+ASXMLClient.m_SC_SocketReadReturn(): 491 Bytes received.
+
+<!-- 07/05/19 15:33:11:444 *Received* (T 17)-->
+<!-- InvokeID: 1008 -->
+<?xml version="1.0"?>
+<SnapshotDeviceResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><crossRefIDorSnapshotData><snapshotData/></crossRefIDorSnapshotData></SnapshotDeviceResponse>
+
+
+<!-- 07/05/19 15:33:11:448 *Received* (T 17)-->
+<!-- InvokeID: 1009 -->
+<?xml version="1.0"?>
+<GetAgentStateResponse xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><agentStateList><agentStateEntry><agentID></agentID><loggedOnState>0</loggedOnState></agentStateEntry></agentStateList></GetAgentStateResponse>
+
+
+<!-- 07/05/19 15:33:15:499 *Sent* (T 10)-->
+<!-- InvokeID: 1010 -->
+<?xml version="1.0" encoding="UTF-8"?><SetAgentState xmlns="http://www.ecma-international.org/standards/ecma-323/csta/ed3"><device typeOfNumber="deviceNumber">1011</device><requestedAgentState>loggedOn</requestedAgentState><agentID>6002</agentID><password>1234</password><hostName>BAO</hostName></SetAgentState>
+

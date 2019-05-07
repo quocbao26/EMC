@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\bin\Debug\VoiceCallHandlingApplication.exe.config
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.Properties.Resources.resources
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.VoiceCallHandlingForm.resources
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\bin\Debug\VoiceCallHandlingApplication.exe
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\bin\Debug\VoiceCallHandlingApplication.pdb
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\bin\Debug\ASXMLClient.dll
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\bin\Debug\CSTASchemas.dll
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\bin\Debug\log4net.dll
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.exe
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.pdb
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.VoiceCallForm.resources
+C:\Users\User\Desktop\EMC\VoiceCallHandlingApplication\VoiceCallHandlingApplication\obj\Debug\VoiceCallHandlingApplication.SettingConfigForm.resources
